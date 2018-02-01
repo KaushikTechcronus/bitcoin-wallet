@@ -20,7 +20,6 @@
 	<string name="exchange_rates_fragment_rate">kurz</string>
 	<string name="exchange_rates_fragment_balance">zostatok</string>
 	<string name="exchange_rates_fragment_source">Cena získaná z %s</string>
-	<string name="exchange_rates_context_set_as_default_title">Nastaviť ako predvolenú cudziu menu</string>
 	<string name="wallet_transactions_options_filter_received">Prijaté</string>
 	<string name="wallet_transactions_options_filter_all">Všetky</string>
 	<string name="wallet_transactions_options_filter_sent">Odoslané</string>
@@ -128,7 +127,6 @@
 	<string name="export_keys_dialog_mail_subject">Bitcoin Wallet - záloha privátnych kľúčov</string>
 	<string name="export_keys_dialog_mail_text">Príloha obsahuje zašifrované privátne kľúče, uchovajte ich v bezpečí. Nezabudnite vaše heslo!</string>
 	<string name="export_keys_dialog_mail_intent_chooser">Archivovať kľúče použitím…</string>
-	<string name="export_keys_dialog_mail_intent_failed">Archivácia kľúčov sa nepodarila.</string>
 	<string name="import_export_keys_dialog_password">heslo</string>
 	<string name="import_export_keys_dialog_show">Zobraziť heslo</string>
 	<string name="import_export_keys_dialog_failure_title">Chyba</string>
@@ -155,7 +153,6 @@
 	<string name="preferences_data_usage_title">Využitie dát</string>
 	<string name="preferences_data_usage_summary">Zobraziť možnosti na zabránenie využívaniu dát na mobilných sieťach.</string>
 	<string name="preferences_report_issue_title">Nahlásiť problém</string>
-	<string name="preferences_report_issue_summary">Zozbieranie informácií o vašom probléme a odoslanie emailu vývojárom.</string>
 	<string name="preferences_initiate_reset_title">Resetovať Blockchain</string>
 	<string name="preferences_initiate_reset_summary">Resetovať blockchain, transakcie a zostatok v peňaženke. Opätovné načítanie bude chvíľu trvať.</string>
 	<string name="preferences_initiate_reset_dialog_message">Chcete resetovať a znovu načítať blockchain?\n\nTáto operácia dočasne skryje zostatok a transakcie vo vašej peňaženke. Oboje sa opäť obnoví, keď sa blockchain synchronizuje.</string>
@@ -171,12 +168,11 @@
 	<string name="report_issue_dialog_collect_application_log">Pripojiť aplikačný log</string>
 	<string name="report_issue_dialog_collect_wallet_dump">Pripojiť dáta peňaženky</string>
 	<string name="report_issue_dialog_mail_intent_chooser">Odoslať správu použitím…</string>
-	<string name="report_issue_dialog_mail_intent_failed">Odosielanie hlásenia zlyhalo.</string>
 	<string name="about_title">O aplikácií</string>
 	<string name="about_license_title">Licencia</string>
-	<string name="about_credits_bitcoinj_title">Táto aplikácia používa bitcoinj %s</string>
-	<string name="about_credits_zxing_title">Táto aplikácia používa \'zxing\'</string>
-	<string name="about_credits_icon_title">Táto aplikácia používa ikonu od \'bitboy\'</string>
+	<string name="about_category_credits">Táto aplikácia používa…</string>
+	<string name="about_credits_bitcoinj_title">bitcoinj %s</string>
+	<string name="about_credits_zxing_title">ZXing</string>
 	<string name="about_community_googleplus_title">Google+ Komunita</string>
 	<string name="about_community_googleplus_summary">Diskusie o aplikácii</string>
 	<string name="about_market_app_title">Google Play stránka</string>

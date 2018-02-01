@@ -23,10 +23,16 @@
   <string name="exchange_rates_fragment_balance">saldo</string>
   <string name="exchange_rates_fragment_source">Pris från %s</string>
   <string name="exchange_rates_options_search">Sök växlingskurs</string>
+<<<<<<< HEAD
   <string name="exchange_rates_context_set_as_default_title">Ange som utländsk standardvaluta</string>
   <string name="wallet_transactions_fragment_empty_text_received">Inga bitcoin har mottagits hittills</string>
   <string name="wallet_transactions_fragment_empty_text_sent">Inga bitcoin har skickats hittills</string>
   <string name="wallet_transactions_fragment_empty_text_howto">Hur får jag tag i bitcoin?\n\nKöp med swish på btcx.se,\neller sälj varor och tjänster\nför bitcoin.</string>
+=======
+  <string name="wallet_transactions_fragment_empty_text_received">Inga bitcoin har mottagits hittills</string>
+  <string name="wallet_transactions_fragment_empty_text_sent">Inga bitcoin har skickats hittills</string>
+  <string name="wallet_transactions_fragment_empty_text_howto">Hur får man tag i bitcoin?\n\nKöp för svenska kronor,\nsälj varor eller tjänster eller\ntjäna genom att arbeta.</string>
+>>>>>>> upstream/master
   <string name="wallet_transactions_row_warning_backup">Grattis, du fick din första betalning! Har du redan &lt;u&gt;säkerhetskopierat din plånbok&lt;/u&gt;, för att skydda mot förlust?</string>
   <string name="wallet_transactions_row_warning_storage_encryption">Tips: för att öka säkerheten på din plånbok kan du &lt;u&gt;kryptera din enhet&lt;/u&gt;. Det skyddar också dina andra appar.</string>
   <string name="wallet_transactions_fragment_coinbase">genererade</string>
@@ -156,6 +162,7 @@
   <string name="transaction_row_message_purpose_raise_fee">Den här transaktionen höjer nätverksavgiften för en tidigare betalning.</string>
   <string name="transaction_row_message_own_unbroadcasted">Denna betalning har inte skickats ännu.</string>
   <string name="transaction_row_message_received_direct">Denna betalning har mottagits direkt. Det finns en risk att den aldrig kommer att kunna användas.</string>
+  <string name="transaction_row_message_received_unconfirmed_delayed">Bekräftelsen på den här betalningen är fördröjd, förmodligen på grund av hög belastning på Bitcoin-nätverket.</string>
   <string name="transaction_row_message_received_unconfirmed_unlocked">Den här betalningen borde bli spenderbar inom några minuter.</string>
   <string name="transaction_row_message_received_in_conflict">Den här betalningen har en ökad risk att inte gå igenom! Vänta gärna på en verifiering.</string>
   <string name="transaction_row_message_received_dead">Denna betalning har återförts av avsändaren.</string>
@@ -165,9 +172,13 @@
   <string name="network_monitor_activity_title">Nätverksövervakare</string>
   <string name="network_monitor_peer_list_title">Peers</string>
   <string name="network_monitor_block_list_title">Block</string>
+  <string name="block_row_mining_difficulty_adjustment">Förändring av svårighetsgrad vid generering</string>
+  <string name="block_row_mining_reward_adjustment">Halvering av belöning vid generering</string>
   <string name="block_row_now">just nu</string>
   <string name="peer_list_fragment_empty">Inga peers anslutna</string>
   <string name="peer_list_row_ping_time">⇆ %d&#x2009;ms</string>
+  <string name="restore_wallet_permission_dialog_title">Läsrättighet saknas</string>
+  <string name="restore_wallet_permission_dialog_message">För att kunna söka efter säkerhetskopierade plånböcker på extern lagring, måste du tillåta läsrättigheter.</string>
   <string name="import_keys_dialog_title">Återställ plånbok</string>
   <string name="import_keys_dialog_message">Välj en plånboksbackup från extern källa (%s):</string>
   <string name="restore_wallet_dialog_replace_warning">Du är på väg att byta ut din nuvarande plånbok. Eventuella tillgångar i din nuvarande plånbok kommer att förloras för alltid om du inte har gjort en separat säkerhetskopia.</string>
@@ -182,6 +193,11 @@
   <string name="restore_wallet_dialog_success">Din plånbok återskapades.</string>
   <string name="restore_wallet_dialog_success_replay">Din plånbok har återskapats. Beloppet kommer att beräknas snart. Detta kommer att ta en stund.</string>
   <string name="import_keys_dialog_failure">Plånboken kunde inte återskapas:\n\n%s\n\nFelaktigt lösenord?</string>
+<<<<<<< HEAD
+=======
+  <string name="backup_wallet_permission_dialog_title">Skrivrättighet saknas</string>
+  <string name="backup_wallet_permission_dialog_message">För att kunna ta säkerhetskopior av din plånbok till extern lagring, måste du tillåta skrivrättigheter.</string>
+>>>>>>> upstream/master
   <string name="export_keys_dialog_title">Säkerhetskopiera plånbok</string>
   <string name="backup_wallet_dialog_message">Din säkerhetskopia kommer att krypteras med ett valt lösenord och lagras på extern plats.</string>
   <string name="backup_wallet_dialog_warning_encrypted">Din plånbok är skyddad av en betalnings-PIN. Se till att du kommer ihåg din PIN-kod tillsammans med lösenordet för säkerhetskopian.</string>
@@ -192,7 +208,10 @@
   <string name="export_keys_dialog_mail_subject">Bitcoin Wallet-backup</string>
   <string name="export_keys_dialog_mail_text">Den bifogade krypterade filen innehåller privata bitcoinnycklar och bör förvaras säkert i alla lägen. Glöm inte krypteringslösenordet!</string>
   <string name="export_keys_dialog_mail_intent_chooser">Arkivera av plånboken med…</string>
+<<<<<<< HEAD
   <string name="export_keys_dialog_mail_intent_failed">Arkivering av plånboken misslyckades.</string>
+=======
+>>>>>>> upstream/master
   <string name="import_export_keys_dialog_password">lösenord</string>
   <string name="backup_wallet_dialog_password_again">igen</string>
   <string name="backup_wallet_dialog_password_mismatch">Felmatchning!</string>
@@ -213,6 +232,8 @@
   <string name="encrypt_keys_dialog_state_done">Klar.</string>
   <string name="scan_camera_problem_dialog_title">Ursäkta</string>
   <string name="scan_camera_problem_dialog_message">Kameran har ett problem. Du behöver antagligen starta om enheten.</string>
+  <string name="scan_camera_permission_dialog_title">Kamerarättighet</string>
+  <string name="scan_camera_permission_dialog_message">För att kunna skanna QR-koder, måste du tillåta åtkomst till kameran.</string>
   <string name="input_parser_io_error">Kan inte läsa av data:\n%s</string>
   <string name="input_parser_cannot_classify">Kan inte känna igen inmatning:\n%s</string>
   <string name="input_parser_invalid_bitcoin_uri">Ogiltig Bitcoin URI:\n%s</string>
@@ -249,7 +270,6 @@
   <string name="preferences_remind_balance_title">Påminnelse om summa</string>
   <string name="preferences_remind_balance_summary">Efter ett par veckors inaktivitet kommer appen ge en påminnelse om det fortfarande finns ett belopp i plånboken.</string>
   <string name="preferences_report_issue_title">Rapportera problem</string>
-  <string name="preferences_report_issue_summary">Samla information om ditt problem och maila rapporten till utvecklarna.</string>
   <string name="preferences_initiate_reset_title">Återställ blockkedjan</string>
   <string name="preferences_initiate_reset_summary">Återställer blockkedjan, transaktioner och plånboksbalansen, det tar en stund.</string>
   <string name="preferences_initiate_reset_dialog_message">Vill du återställa och återsynkronisera blockkedjan? Detta kommer att tillfälligt dölja plånbokens saldo och radera genomförda transaktioner. Båda dessa kommer att återställas när blockkedjans synkronisering fortsätter.</string>
@@ -270,15 +290,15 @@
   <string name="report_issue_dialog_collect_application_log">Bifoga applikationslogg</string>
   <string name="report_issue_dialog_collect_wallet_dump">Bifoga plånboksdump</string>
   <string name="report_issue_dialog_mail_intent_chooser">Skicka rapport med…</string>
-  <string name="report_issue_dialog_mail_intent_failed">Rapportering misslyckades</string>
   <string name="about_title">Om</string>
   <string name="about_version_title">Version</string>
   <string name="about_copyright_title">Copyright</string>
   <string name="about_license_title">Licens</string>
   <string name="about_source_title">Källkod</string>
-  <string name="about_credits_bitcoinj_title">Denna app använder \'bitcoinj\'</string>
-  <string name="about_credits_zxing_title">Denna app använder \'zxing\'</string>
-  <string name="about_credits_icon_title">Appen använder en ikon av \'bitboy\'</string>
+  <string name="about_category_credits">Den här appen använder…</string>
+  <string name="about_credits_bitcoinj_title">bitcoinj %s, en implementation av Bitcoin-protokollet</string>
+  <string name="about_credits_zxing_title">ZXing, ett bibliotek för bearbetning av QR-koder</string>
+  <string name="about_credits_scrypt_title">Scrypt, implementerad av Will Glozer och Colin Percival</string>
   <string name="about_community_googleplus_title">Google+-community</string>
   <string name="about_community_googleplus_summary">Diskussioner om appen</string>
   <string name="about_market_app_title">Google Play-sida</string>
@@ -290,6 +310,10 @@
   <string name="notification_inactivity_message_donate">Om du inte bryr dig om dina bitcoin kan du också donera dem till Bitcoin Wallet-projektet.</string>
   <string name="notification_inactivity_action_dismiss">Påminn senare</string>
   <string name="notification_inactivity_action_dismiss_forever">Påminn mig inte</string>
+<<<<<<< HEAD
+=======
+  <string name="appwidget_wallet_balance_title">Bitcoin-saldo</string>
+>>>>>>> upstream/master
   <!--generic buttons-->
   <string name="button_ok">OK</string>
   <string name="button_dismiss">Avsluta</string>
