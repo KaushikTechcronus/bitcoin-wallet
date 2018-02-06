@@ -23,16 +23,16 @@
   <string name="exchange_rates_fragment_balance">saldo</string>
   <string name="exchange_rates_fragment_source">Pris från %s</string>
   <string name="exchange_rates_options_search">Sök växlingskurs</string>
-<<<<<<< HEAD
+<!--<<<<<<< HEAD-->
   <string name="exchange_rates_context_set_as_default_title">Ange som utländsk standardvaluta</string>
   <string name="wallet_transactions_fragment_empty_text_received">Inga bitcoin har mottagits hittills</string>
   <string name="wallet_transactions_fragment_empty_text_sent">Inga bitcoin har skickats hittills</string>
   <string name="wallet_transactions_fragment_empty_text_howto">Hur får jag tag i bitcoin?\n\nKöp med swish på btcx.se,\neller sälj varor och tjänster\nför bitcoin.</string>
-=======
+<!--=======
   <string name="wallet_transactions_fragment_empty_text_received">Inga bitcoin har mottagits hittills</string>
   <string name="wallet_transactions_fragment_empty_text_sent">Inga bitcoin har skickats hittills</string>
   <string name="wallet_transactions_fragment_empty_text_howto">Hur får man tag i bitcoin?\n\nKöp för svenska kronor,\nsälj varor eller tjänster eller\ntjäna genom att arbeta.</string>
->>>>>>> upstream/master
+>>>>>>> upstream/master-->
   <string name="wallet_transactions_row_warning_backup">Grattis, du fick din första betalning! Har du redan &lt;u&gt;säkerhetskopierat din plånbok&lt;/u&gt;, för att skydda mot förlust?</string>
   <string name="wallet_transactions_row_warning_storage_encryption">Tips: för att öka säkerheten på din plånbok kan du &lt;u&gt;kryptera din enhet&lt;/u&gt;. Det skyddar också dina andra appar.</string>
   <string name="wallet_transactions_fragment_coinbase">genererade</string>
@@ -193,11 +193,11 @@
   <string name="restore_wallet_dialog_success">Din plånbok återskapades.</string>
   <string name="restore_wallet_dialog_success_replay">Din plånbok har återskapats. Beloppet kommer att beräknas snart. Detta kommer att ta en stund.</string>
   <string name="import_keys_dialog_failure">Plånboken kunde inte återskapas:\n\n%s\n\nFelaktigt lösenord?</string>
-<<<<<<< HEAD
-=======
+<!--<<<<<<< HEAD
+=======-->
   <string name="backup_wallet_permission_dialog_title">Skrivrättighet saknas</string>
   <string name="backup_wallet_permission_dialog_message">För att kunna ta säkerhetskopior av din plånbok till extern lagring, måste du tillåta skrivrättigheter.</string>
->>>>>>> upstream/master
+<!--&gt;>>>>>> upstream/master-->
   <string name="export_keys_dialog_title">Säkerhetskopiera plånbok</string>
   <string name="backup_wallet_dialog_message">Din säkerhetskopia kommer att krypteras med ett valt lösenord och lagras på extern plats.</string>
   <string name="backup_wallet_dialog_warning_encrypted">Din plånbok är skyddad av en betalnings-PIN. Se till att du kommer ihåg din PIN-kod tillsammans med lösenordet för säkerhetskopian.</string>
@@ -208,10 +208,10 @@
   <string name="export_keys_dialog_mail_subject">Bitcoin Wallet-backup</string>
   <string name="export_keys_dialog_mail_text">Den bifogade krypterade filen innehåller privata bitcoinnycklar och bör förvaras säkert i alla lägen. Glöm inte krypteringslösenordet!</string>
   <string name="export_keys_dialog_mail_intent_chooser">Arkivera av plånboken med…</string>
-<<<<<<< HEAD
+<!--<<<<<<< HEAD-->
   <string name="export_keys_dialog_mail_intent_failed">Arkivering av plånboken misslyckades.</string>
-=======
->>>>>>> upstream/master
+<!--=======
+>>>>>>> upstream/master-->
   <string name="import_export_keys_dialog_password">lösenord</string>
   <string name="backup_wallet_dialog_password_again">igen</string>
   <string name="backup_wallet_dialog_password_mismatch">Felmatchning!</string>
@@ -310,10 +310,7 @@
   <string name="notification_inactivity_message_donate">Om du inte bryr dig om dina bitcoin kan du också donera dem till Bitcoin Wallet-projektet.</string>
   <string name="notification_inactivity_action_dismiss">Påminn senare</string>
   <string name="notification_inactivity_action_dismiss_forever">Påminn mig inte</string>
-<<<<<<< HEAD
-=======
   <string name="appwidget_wallet_balance_title">Bitcoin-saldo</string>
->>>>>>> upstream/master
   <!--generic buttons-->
   <string name="button_ok">OK</string>
   <string name="button_dismiss">Avsluta</string>

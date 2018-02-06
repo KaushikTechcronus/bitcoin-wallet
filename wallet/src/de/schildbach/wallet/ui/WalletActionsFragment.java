@@ -18,7 +18,6 @@
 package de.schildbach.wallet.ui;
 
 import de.schildbach.wallet.util.CheatSheet;
-import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -29,10 +28,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
-<<<<<<< HEAD
 import se.btcx.wallet.R;
-=======
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach

@@ -17,7 +17,6 @@
 
 package de.schildbach.wallet.util;
 
-import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -29,11 +28,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
-<<<<<<< HEAD
 import android.widget.TextView;
 import se.btcx.wallet.R;
-=======
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach

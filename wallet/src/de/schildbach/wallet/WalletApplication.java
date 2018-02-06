@@ -47,8 +47,6 @@ import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.service.BlockchainServiceImpl;
 import de.schildbach.wallet.util.Bluetooth;
 import de.schildbach.wallet.util.CrashReporter;
-import de.schildbach.wallet_test.BuildConfig;
-import de.schildbach.wallet_test.R;
 
 import android.app.ActivityManager;
 import android.app.AlarmManager;
@@ -77,14 +75,12 @@ import ch.qos.logback.classic.encoder.PatternLayoutEncoder;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.rolling.RollingFileAppender;
 import ch.qos.logback.core.rolling.TimeBasedRollingPolicy;
-<<<<<<< HEAD
 import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.service.BlockchainServiceImpl;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.util.Io;
+import se.btcx.wallet.BuildConfig;
 import se.btcx.wallet.R;
-=======
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach

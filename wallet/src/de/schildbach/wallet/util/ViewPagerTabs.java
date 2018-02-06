@@ -20,7 +20,6 @@ package de.schildbach.wallet.util;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.schildbach.wallet_test.R;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -33,10 +32,7 @@ import android.os.Parcelable;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.AttributeSet;
 import android.view.View;
-<<<<<<< HEAD
 import se.btcx.wallet.R;
-=======
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach

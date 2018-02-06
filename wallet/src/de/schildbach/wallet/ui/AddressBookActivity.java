@@ -30,7 +30,6 @@ import com.google.common.collect.Iterables;
 
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.ViewPagerTabs;
-import de.schildbach.wallet_test.R;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -44,15 +43,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-<<<<<<< HEAD
 import com.google.common.collect.Iterables;
 
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.ViewPagerTabs;
 import se.btcx.wallet.R;
 
-=======
->>>>>>> upstream/master
 /**
  * @author Andreas Schildbach
  */

@@ -19,7 +19,6 @@ package de.schildbach.wallet.ui;
 
 import javax.annotation.Nullable;
 
-import de.schildbach.wallet_test.R;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -30,11 +29,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-<<<<<<< HEAD
-import de.schildbach.wallet.Constants;
 import se.btcx.wallet.R;
-=======
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach

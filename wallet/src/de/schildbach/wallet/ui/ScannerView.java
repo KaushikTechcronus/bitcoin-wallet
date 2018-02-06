@@ -23,7 +23,6 @@ import java.util.Map;
 
 import com.google.zxing.ResultPoint;
 
-import de.schildbach.wallet_test.R;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -37,13 +36,10 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
-<<<<<<< HEAD
 import com.google.zxing.ResultPoint;
 
 import se.btcx.wallet.R;
 
-=======
->>>>>>> upstream/master
 /**
  * @author Andreas Schildbach
  */

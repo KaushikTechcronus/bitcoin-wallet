@@ -26,7 +26,6 @@ import org.slf4j.LoggerFactory;
 import com.google.common.base.Strings;
 
 import de.schildbach.wallet.data.ExchangeRate;
-import de.schildbach.wallet_test.R;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
@@ -35,14 +34,9 @@ import android.content.res.Resources;
 import android.net.Uri;
 import android.text.format.DateUtils;
 
-<<<<<<< HEAD
 import com.google.common.base.Strings;
 
-import de.schildbach.wallet.ExchangeRatesProvider.ExchangeRate;
 import se.btcx.wallet.R;
-
-=======
->>>>>>> upstream/master
 /**
  * @author Andreas Schildbach
  */

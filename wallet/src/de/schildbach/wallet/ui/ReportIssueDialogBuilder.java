@@ -34,7 +34,6 @@ import com.google.common.base.Charsets;
 
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.CrashReporter;
-import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -47,18 +46,14 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
-<<<<<<< HEAD
 import android.widget.Toast;
 
 import com.google.common.base.Charsets;
 
 import de.schildbach.wallet.Constants;
-import de.schildbach.wallet.FileAttachmentProvider;
 import de.schildbach.wallet.util.CrashReporter;
 import de.schildbach.wallet.util.Io;
 import se.btcx.wallet.R;
-=======
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach

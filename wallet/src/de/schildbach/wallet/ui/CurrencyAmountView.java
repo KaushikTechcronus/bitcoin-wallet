@@ -26,7 +26,6 @@ import org.bitcoinj.utils.MonetaryFormat;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.MonetarySpannable;
-import de.schildbach.wallet_test.R;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -46,14 +45,11 @@ import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-<<<<<<< HEAD
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.MonetarySpannable;
 import se.btcx.wallet.R;
 
-=======
->>>>>>> upstream/master
 /**
  * @author Andreas Schildbach
  */

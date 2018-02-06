@@ -20,17 +20,12 @@ package de.schildbach.wallet.ui.send;
 import org.bitcoinj.core.VersionedChecksummedBytes;
 
 import de.schildbach.wallet.ui.AbstractBindServiceActivity;
-import de.schildbach.wallet_test.R;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-<<<<<<< HEAD
-import de.schildbach.wallet.ui.AbstractBindServiceActivity;
 import se.btcx.wallet.R;
-=======
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach

@@ -24,6 +24,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.SocketException;
+import java.net.SocketTimeoutException;
+import java.net.UnknownHostException;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
@@ -51,7 +54,6 @@ import de.schildbach.wallet.util.Crypto;
 import de.schildbach.wallet.util.Io;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.WalletUtils;
-import de.schildbach.wallet_test.R;
 
 import android.Manifest;
 import android.app.Activity;
@@ -62,11 +64,14 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.nfc.NdefMessage;
 import android.nfc.NfcAdapter;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -83,7 +88,6 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-<<<<<<< HEAD
 import com.google.common.base.Charsets;
 
 import de.schildbach.wallet.Configuration;
@@ -103,10 +107,10 @@ import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.WalletUtils;
 import se.btcx.wallet.R;
 
-*//**
+/**
  * @author Andreas Schildbach
- *//*
-public final class WalletActivity extends AbstractWalletActivity
+ */
+/*public final class WalletActivity extends AbstractWalletActivity
 {
 	private static final int DIALOG_RESTORE_WALLET = 0;
 	private static final int DIALOG_TIMESKEW_ALERT = 1;
@@ -634,7 +638,7 @@ public final class WalletActivity extends AbstractWalletActivity
 					R.string.report_issue_dialog_message_crash)
 			{
 				@Override
-				protected CharSequence subject()
+				protected String subject()
 				{
 					return Constants.REPORT_SUBJECT_CRASH + " " + packageInfo.versionName;
 				}
@@ -885,13 +889,12 @@ public final class WalletActivity extends AbstractWalletActivity
 			}
 		});
 		dialog.show();
-	}
-=======
+	}*/
 
 /**
  * @author Andreas Schildbach
  */
-/*public final class WalletActivity extends AbstractBindServiceActivity
+public final class WalletActivity extends AbstractBindServiceActivity
         implements ActivityCompat.OnRequestPermissionsResultCallback {
     private static final int DIALOG_BACKUP_WALLET_PERMISSION = 0;
     private static final int DIALOG_RESTORE_WALLET_PERMISSION = 1;
@@ -1550,5 +1553,4 @@ public final class WalletActivity extends AbstractWalletActivity
         });
         dialog.show();
     }
->>>>>>> upstream/master*/
 }

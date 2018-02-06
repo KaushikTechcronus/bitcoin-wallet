@@ -31,7 +31,6 @@ import org.slf4j.LoggerFactory;
 
 import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.service.BlockchainServiceImpl;
-import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -47,6 +46,7 @@ import android.content.Loader;
 import android.content.ServiceConnection;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.IBinder;
 import android.support.v4.content.LocalBroadcastManager;
@@ -58,12 +58,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.ViewAnimator;
-<<<<<<< HEAD
 import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.service.BlockchainServiceImpl;
 import se.btcx.wallet.R;
-=======
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach
@@ -77,7 +74,6 @@ public final class PeerListFragment extends Fragment {
     private ViewAnimator viewGroup;
     private RecyclerView recyclerView;
     private PeerViewAdapter adapter;
-
     private final Handler handler = new Handler();
 
     private static final long REFRESH_MS = DateUtils.SECOND_IN_MILLIS;

@@ -38,7 +38,6 @@ import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.ui.AbstractWalletActivity;
 import de.schildbach.wallet.ui.DialogBuilder;
-import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -62,7 +61,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-<<<<<<< HEAD
 import com.google.common.util.concurrent.ListenableFuture;
 
 import de.schildbach.wallet.Constants;
@@ -71,8 +69,6 @@ import de.schildbach.wallet.ui.AbstractWalletActivity;
 import de.schildbach.wallet.ui.DialogBuilder;
 import se.btcx.wallet.R;
 
-=======
->>>>>>> upstream/master
 /**
  * @author Andreas Schildbach
  */

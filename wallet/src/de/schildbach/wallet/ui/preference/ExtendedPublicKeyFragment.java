@@ -22,7 +22,6 @@ import org.slf4j.LoggerFactory;
 
 import de.schildbach.wallet.ui.DialogBuilder;
 import de.schildbach.wallet.util.Qr;
-import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -37,16 +36,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 
-<<<<<<< HEAD
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import de.schildbach.wallet.ui.DialogBuilder;
 import de.schildbach.wallet.util.Qr;
 import se.btcx.wallet.R;
-
-=======
->>>>>>> upstream/master
 /**
  * @author Andreas Schildbach
  */

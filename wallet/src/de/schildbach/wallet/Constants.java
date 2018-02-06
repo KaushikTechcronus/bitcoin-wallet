@@ -167,15 +167,14 @@ public final class Constants {
     public static final String WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";
 */
 
-<<<<<<< HEAD
 	public static final String SOURCE_URL = "https://github.com/BTCX/bitcoin-wallet";
 	public static final String BINARY_URL = "https://github.com/BTCX/bitcoin-wallet/releases";
 	public static final String MARKET_APP_URL = "market://details?id=%s";
 	public static final String WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";
-=======
-    public static final int PEER_DISCOVERY_TIMEOUT_MS = 10 * (int) DateUtils.SECOND_IN_MILLIS;
+
+    public static final int HTTP_TIMEOUT_MS = 15 * (int) DateUtils.SECOND_IN_MILLIS;
+	public static final int PEER_DISCOVERY_TIMEOUT_MS = 10 * (int) DateUtils.SECOND_IN_MILLIS;
     public static final int PEER_TIMEOUT_MS = 15 * (int) DateUtils.SECOND_IN_MILLIS;
->>>>>>> upstream/master
 
     public static final long LAST_USAGE_THRESHOLD_JUST_MS = DateUtils.HOUR_IN_MILLIS;
     public static final long LAST_USAGE_THRESHOLD_RECENTLY_MS = 2 * DateUtils.DAY_IN_MILLIS;

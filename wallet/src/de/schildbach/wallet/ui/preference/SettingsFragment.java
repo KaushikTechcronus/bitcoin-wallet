@@ -25,7 +25,6 @@ import org.slf4j.LoggerFactory;
 import de.schildbach.wallet.Configuration;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.WalletBalanceWidgetProvider;
-import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
 import android.content.pm.PackageManager;
@@ -38,7 +37,6 @@ import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceFragment;
 
-<<<<<<< HEAD
 import java.net.InetAddress;
 
 import org.slf4j.Logger;
@@ -49,8 +47,6 @@ import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.WalletBalanceWidgetProvider;
 import se.btcx.wallet.R;
 
-=======
->>>>>>> upstream/master
 /**
  * @author Andreas Schildbach
  */

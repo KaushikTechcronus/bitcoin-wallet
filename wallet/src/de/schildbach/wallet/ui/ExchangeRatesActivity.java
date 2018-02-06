@@ -17,14 +17,10 @@
 
 package de.schildbach.wallet.ui;
 
-import de.schildbach.wallet_test.R;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-<<<<<<< HEAD
 import se.btcx.wallet.R;
-=======
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach

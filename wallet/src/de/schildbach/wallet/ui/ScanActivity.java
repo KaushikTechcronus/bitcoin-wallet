@@ -34,7 +34,6 @@ import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 
 import de.schildbach.wallet.camera.CameraManager;
-import de.schildbach.wallet_test.R;
 
 import android.Manifest;
 import android.app.Activity;
@@ -60,7 +59,6 @@ import android.os.Vibrator;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.view.KeyEvent;
-<<<<<<< HEAD
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
@@ -76,13 +74,11 @@ import com.google.zxing.qrcode.QRCodeReader;
 
 import de.schildbach.wallet.camera.CameraManager;
 import se.btcx.wallet.R;
-=======
 import android.view.Surface;
 import android.view.TextureView;
 import android.view.TextureView.SurfaceTextureListener;
 import android.view.View;
 import android.view.WindowManager;
->>>>>>> upstream/master
 
 /**
  * @author Andreas Schildbach

@@ -29,7 +29,6 @@ import org.spongycastle.crypto.params.KeyParameter;
 import com.google.common.base.Strings;
 
 import de.schildbach.wallet.WalletApplication;
-import de.schildbach.wallet_test.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -53,14 +52,10 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
-<<<<<<< HEAD
 import com.google.protobuf.ByteString;
 
 import de.schildbach.wallet.WalletApplication;
 import se.btcx.wallet.R;
-
-=======
->>>>>>> upstream/master
 /**
  * @author Andreas Schildbach
  */

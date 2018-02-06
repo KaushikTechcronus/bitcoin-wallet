@@ -19,12 +19,8 @@ package de.schildbach.wallet.ui.preference;
 
 import java.util.List;
 
-<<<<<<< HEAD
 import android.view.MenuItem;
 import se.btcx.wallet.R;
-=======
-import de.schildbach.wallet_test.R;
->>>>>>> upstream/master
 
 import android.view.MenuItem;
 
