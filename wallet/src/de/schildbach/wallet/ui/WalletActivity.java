@@ -1062,6 +1062,7 @@ public final class WalletActivity extends AbstractBindServiceActivity
 
         final Resources res = getResources();
         final String externalStorageState = Environment.getExternalStorageState();
+        Boolean isSDPresent = android.os.Environment.getExternalStorageState().equals(android.os.Environment.MEDIA_MOUNTED);
 
         menu.findItem(R.id.wallet_options_exchange_rates)
                 .setVisible(Constants.ENABLE_EXCHANGE_RATES && res.getBoolean(R.bool.show_exchange_rates_option));

@@ -43,7 +43,7 @@ import android.text.format.DateUtils;
  * @author Andreas Schildbach
  */
 public final class Constants {
-    public static final boolean TEST = R.class.getPackage().getName().contains("_test");
+    public static final boolean TEST = true; //R.class.getPackage().getName().contains("_test");
 
     /** Network this wallet is on (e.g. testnet or mainnet). */
     public static final NetworkParameters NETWORK_PARAMETERS = TEST ? TestNet3Params.get() : MainNetParams.get();
@@ -58,7 +58,7 @@ public final class Constants {
     /** Enable switch for sweeping of paper wallets */
     public static final boolean ENABLE_SWEEP_WALLET = true;
     /** Enable switch for browsing to block explorers */
-    public static final boolean ENABLE_BROWSE = true;
+    public static final  boolean ENABLE_BROWSE = true;
 
     public final static class Files {
         private static final String FILENAME_NETWORK_SUFFIX = NETWORK_PARAMETERS.getId()

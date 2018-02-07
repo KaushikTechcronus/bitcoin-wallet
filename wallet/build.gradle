@@ -37,6 +37,13 @@ ext {
 android {
     compileSdkVersion 'android-26'
     buildToolsVersion '26.0.3'
+    defaultConfig {
+        applicationId "se.btcx.wallet"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 249
+        versionName "4.58.1-btcx"
+    }
 
     lintOptions {
         abortOnError false
