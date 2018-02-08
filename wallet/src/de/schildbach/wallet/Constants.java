@@ -43,7 +43,7 @@ import android.text.format.DateUtils;
  * @author Andreas Schildbach
  */
 public final class Constants {
-    public static final boolean TEST = true; //R.class.getPackage().getName().contains("_test");
+    public static final boolean TEST = R.class.getPackage().getName().contains("_test");
 
     /** Network this wallet is on (e.g. testnet or mainnet). */
     public static final NetworkParameters NETWORK_PARAMETERS = TEST ? TestNet3Params.get() : MainNetParams.get();
@@ -155,6 +155,10 @@ public final class Constants {
     public static final String PREFIX_ALMOST_EQUAL_TO = Character.toString(CHAR_ALMOST_EQUAL_TO) + CHAR_THIN_SPACE;
     public static final int ADDRESS_FORMAT_GROUP_SIZE = 4;
     public static final int ADDRESS_FORMAT_LINE_SIZE = 12;
+
+    public static final int  ADDRESS_FORMAT_GROUP_SIZE_SINGLELINE = 1;
+    public static final int ADDRESS_FORMAT_LINE_SIZE_SINGLELINE = 36;
+
 
     public static final MonetaryFormat LOCAL_FORMAT = new MonetaryFormat().noCode().minDecimals(2).optionalDecimals();
 

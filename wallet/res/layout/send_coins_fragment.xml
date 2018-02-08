@@ -69,7 +69,8 @@
                     android:ellipsize="end"
                     android:maxLines="3"
                     android:singleLine="false"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:visibility="gone"/>
 
                 <TextView
                     android:id="@+id/send_coins_receiving_static_address"

@@ -15,7 +15,7 @@
         android:layout_marginLeft="12dp"
         android:contentDescription="@string/app_name"
         android:src="@mipmap/ic_app_color_48dp"
-        android:visibility="gone" />
+        android:visibility="visible" />
 
     <LinearLayout
         android:id="@+id/widget_button_balance"

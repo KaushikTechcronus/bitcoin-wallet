@@ -90,6 +90,7 @@ import de.schildbach.wallet.util.Bluetooth;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.Qr;
 import de.schildbach.wallet.util.Toast;
+import de.schildbach.wallet.util.UtilFunctions;
 import se.btcx.wallet.R;
 
 /**
@@ -360,14 +361,19 @@ public final class RequestCoinsFragment extends Fragment implements NfcAdapter.C
     }
 
     private void handleCopy() {
-        final Uri request = Uri.parse(determineBitcoinRequestStr(false));
+        //Remove text "bitcoin:" in copying aaddress
+        String text = determineBitcoinRequestStr(false);
+        text = UtilFunctions.addresstextOptimization(text);
+
+        final Uri request = Uri.parse(text);
         clipboardManager.setPrimaryClip(ClipData.newRawUri("Bitcoin payment request", request));
         log.info("payment request copied to clipboard: {}", request);
         new Toast(activity).toast(R.string.request_coins_clipboard_msg);
     }
 
     private void handleShare() {
-        final String request = determineBitcoinRequestStr(false);
+         String request = determineBitcoinRequestStr(false);
+        request = UtilFunctions.addresstextOptimization(request); //Remove text "bitcoin:" in copying aaddress
         final ShareCompat.IntentBuilder builder = ShareCompat.IntentBuilder.from(activity);
         builder.setType("text/plain");
         builder.setText(request);

@@ -1210,7 +1210,7 @@ public final class SendCoinsFragment extends Fragment {
 
                 if (paymentIntent.hasAddress())
                     receivingStaticAddressView.setText(WalletUtils.formatAddress(paymentIntent.getAddress(),
-                            Constants.ADDRESS_FORMAT_GROUP_SIZE, Constants.ADDRESS_FORMAT_LINE_SIZE));
+                            Constants.ADDRESS_FORMAT_GROUP_SIZE_SINGLELINE, Constants.ADDRESS_FORMAT_LINE_SIZE_SINGLELINE));
                 else
                     receivingStaticAddressView.setText(R.string.send_coins_fragment_receiving_address_complex);
             } else if (validatedAddress != null) {
@@ -1219,7 +1219,7 @@ public final class SendCoinsFragment extends Fragment {
                 receivingStaticView.setVisibility(View.VISIBLE);
 
                 receivingStaticAddressView.setText(WalletUtils.formatAddress(validatedAddress.address,
-                        Constants.ADDRESS_FORMAT_GROUP_SIZE, Constants.ADDRESS_FORMAT_LINE_SIZE));
+                        Constants.ADDRESS_FORMAT_GROUP_SIZE_SINGLELINE, Constants.ADDRESS_FORMAT_LINE_SIZE_SINGLELINE));
                 final String addressBookLabel = AddressBookProvider.resolveLabel(activity,
                         validatedAddress.address.toBase58());
                 final String staticLabel;

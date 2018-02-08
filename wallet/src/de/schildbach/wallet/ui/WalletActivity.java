@@ -56,6 +56,7 @@ import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.WalletUtils;
 
 import android.Manifest;
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -1062,7 +1063,6 @@ public final class WalletActivity extends AbstractBindServiceActivity
 
         final Resources res = getResources();
         final String externalStorageState = Environment.getExternalStorageState();
-        Boolean isSDPresent = android.os.Environment.getExternalStorageState().equals(android.os.Environment.MEDIA_MOUNTED);
 
         menu.findItem(R.id.wallet_options_exchange_rates)
                 .setVisible(Constants.ENABLE_EXCHANGE_RATES && res.getBoolean(R.bool.show_exchange_rates_option));
@@ -1076,6 +1076,12 @@ public final class WalletActivity extends AbstractBindServiceActivity
         encryptKeysOption.setTitle(wallet.isEncrypted() ? R.string.wallet_options_encrypt_keys_change
                 : R.string.wallet_options_encrypt_keys_set);
 
+
+        ActionBar actionBar = getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+            actionBar.setHomeAsUpIndicator(R.drawable.ic_app_color_48dp);
+        }
         return true;
     }
 
@@ -1549,7 +1555,10 @@ public final class WalletActivity extends AbstractBindServiceActivity
             @Override
             public void onClick(final DialogInterface dialog, final int id) {
                 getWalletApplication().resetBlockchain();
+                Intent intent = getIntent();
                 finish();
+                startActivity(intent);
+      //          finish();
             }
         });
         dialog.show();

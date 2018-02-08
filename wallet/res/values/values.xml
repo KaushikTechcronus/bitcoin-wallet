@@ -21,13 +21,25 @@
 		<item>@string/preferences_precision_labels_2_3</item>
 		<item>@string/preferences_precision_labels_0_6</item>
 	</string-array>
+
 	<string-array name="preferences_block_explorer_values">
+		<item>https://testnet.blockchain.info</item>
+		<item>https://www.blocktrail.com/tBTC/</item>
+		<item>https://live.blockcypher.com/btc-testnet/</item>
+	</string-array>
+	<string-array name="preferences_block_explorer_labels">
+		<item>blockchain.info</item>
+		<item>blocktrail.com</item>
+		<item>live.blockcypher.com</item>
+
+		<!--Current set as upstream and commnted-->
+<!--	<string-array name="preferences_block_explorer_values">
 		<item>https://blockexplorer.com/</item>
 		<item>https://www.biteasy.com/</item>
 	</string-array>
 	<string-array name="preferences_block_explorer_labels">
 		<item>blockexplorer.com</item>
-		<item>BitEasy</item>
+		<item>BitEasy</item>-->
 	</string-array>
 <!--=======
     <string name="symbol_to">→</string>
