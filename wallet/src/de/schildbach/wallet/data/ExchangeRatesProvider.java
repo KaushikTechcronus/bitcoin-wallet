@@ -66,6 +66,7 @@ public class ExchangeRatesProvider extends ContentProvider {
 
     public static final String QUERY_PARAM_Q = "q";
     private static final String QUERY_PARAM_OFFLINE = "offline";
+    public static final String QUERY_PARAM_Qs = "qa";
 
     private Configuration config;
     private String userAgent;
@@ -144,7 +145,7 @@ public class ExchangeRatesProvider extends ContentProvider {
                 cursor.newRow().add(currencyCode.hashCode()).add(currencyCode).add(rate.coin.value).add(rate.fiat.value)
                         .add(exchangeRate.source);
             }
-        } else if (selection.equals(QUERY_PARAM_Q)) {
+        }else if (selection.equals(QUERY_PARAM_Q)) {
             final String selectionArg = selectionArgs[0].toLowerCase(Locale.US);
             for (final Map.Entry<String, ExchangeRate> entry : exchangeRates.entrySet()) {
                 final ExchangeRate exchangeRate = entry.getValue();
@@ -153,6 +154,21 @@ public class ExchangeRatesProvider extends ContentProvider {
                 final String currencySymbol = GenericUtils.currencySymbol(currencyCode);
                 if (currencyCode.toLowerCase(Locale.US).contains(selectionArg)
                         || currencySymbol.toLowerCase(Locale.US).contains(selectionArg))
+                    cursor.newRow().add(currencyCode.hashCode()).add(currencyCode).add(rate.coin.value)
+                            .add(rate.fiat.value).add(exchangeRate.source);
+            }
+        } else if (selection.equals(QUERY_PARAM_Qs)) {
+            final String selectionArg = selectionArgs[0].toLowerCase(Locale.US);
+            final String selectionArg1 = selectionArgs[1].toLowerCase(Locale.US);
+            for (final Map.Entry<String, ExchangeRate> entry : exchangeRates.entrySet()) {
+                final ExchangeRate exchangeRate = entry.getValue();
+                final org.bitcoinj.utils.ExchangeRate rate = exchangeRate.rate;
+                final String currencyCode = exchangeRate.getCurrencyCode();
+                final String currencySymbol = GenericUtils.currencySymbol(currencyCode);
+                if (currencyCode.toLowerCase(Locale.US).contains(selectionArg)
+                        || currencySymbol.toLowerCase(Locale.US).contains(selectionArg)
+                        || currencyCode.toLowerCase(Locale.US).contains(selectionArg1)
+                        || currencySymbol.toLowerCase(Locale.US).contains(selectionArg1))
                     cursor.newRow().add(currencyCode.hashCode()).add(currencyCode).add(rate.coin.value)
                             .add(rate.fiat.value).add(exchangeRate.source);
             }

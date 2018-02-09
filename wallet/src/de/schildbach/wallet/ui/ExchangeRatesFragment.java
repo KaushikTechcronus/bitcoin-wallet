@@ -209,11 +209,15 @@ public final class ExchangeRatesFragment extends Fragment implements OnSharedPre
     private final LoaderCallbacks<Cursor> rateLoaderCallbacks = new LoaderManager.LoaderCallbacks<Cursor>() {
         @Override
         public Loader<Cursor> onCreateLoader(final int id, final Bundle args) {
-            if (query == null)
+
+            return new CursorLoader(activity, contentUri, null, ExchangeRatesProvider.QUERY_PARAM_Qs,
+                    new String[] { "EUR","SEK" }, null);
+
+            /*if (query == null)
                 return new CursorLoader(activity, contentUri, null, null, null, null);
             else
                 return new CursorLoader(activity, contentUri, null, ExchangeRatesProvider.QUERY_PARAM_Q,
-                        new String[] { query }, null);
+                        new String[] { query }, null);*/
         }
 
         @Override

@@ -183,7 +183,8 @@ public class Configuration {
     }
 
     public String getExchangeCurrencyCode() {
-        return prefs.getString(PREFS_KEY_EXCHANGE_CURRENCY, null);
+        //return prefs.getString(PREFS_KEY_EXCHANGE_CURRENCY, null);
+        return prefs.getString(PREFS_KEY_EXCHANGE_CURRENCY, "SEK");
     }
 
     public void setExchangeCurrencyCode(final String exchangeCurrencyCode) {
